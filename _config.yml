@@ -3,18 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Jofun的博客
-subtitle: 热爱学习无可自拔
-description: JasonYU的博客. 主要分享关于PHP语言, web开发, 前端开发, 以及其他相关技术,记录学习和交流分析, 以及对互联网行业的思考和分析。
-keywords: PHP,PHP开发,PHP扩展,PHP扩展开发,PHP教程,PHP扩展开发教程,LAMP,Javascript,CSS,Vue,recate,前端教程,书籍,Jason Yu
+title: 顽石个人博客 - 一个专注于Web前端开发技术分享的博客网站
+subtitle: 专注于 Web 前端开发领域，致力于构建符合 Web 标准、可用性、可访问性的高性能 Web 应用程序。
+description: 顽石个人博客，一个专注于Web前端开发技术分享的博客网站。
+keywords: JavaScript,NodeJS,Less,Sass,Express,CSS,Vue,React,前端开发,前端教程
 author: Jofun Liang
 language: zh-Hans
 timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://www.yuhuizhen.com
-# url: https://jasonyh.github.io/
+url: https://wanshi.netlify.com/
+# url: https://jofunliang.github.io/
 root: /
 permalink: :year/:month/:day/:title.html
 # permalink: :category/:title.html
