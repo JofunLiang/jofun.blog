@@ -407,6 +407,7 @@ valine:
 gitment:
   enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
+  error: false
   count: true # Show comments count in post meta area
   lazy: true # Comments lazy loading with a button
   cleanly: true # Hide 'Powered by ...' on footer, and more

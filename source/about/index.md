@@ -1,7 +1,7 @@
 ---
 title: 关于
 date: 2018-07-11 15:27:44
-comment: true
+comment: false
 tags:
     - about
     - 关于
