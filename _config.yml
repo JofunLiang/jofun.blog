@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: JasonYu的博客
+title: Jofun的博客
 subtitle: 热爱学习无可自拔
 description: JasonYU的博客. 主要分享关于PHP语言, web开发, 前端开发, 以及其他相关技术,记录学习和交流分析, 以及对互联网行业的思考和分析。
 keywords: PHP,PHP开发,PHP扩展,PHP扩展开发,PHP教程,PHP扩展开发教程,LAMP,Javascript,CSS,Vue,recate,前端教程,书籍,Jason Yu
-author: Jason Yu
+author: Jofun Liang
 language: zh-Hans
 timezone: Asia/Shanghai
 
@@ -83,7 +83,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  repo: https://github.com/JasonYH/myblog.git
+  repo: https://github.com/JofunLiang/jofun.blog.git
   branch: master
 
 #search
