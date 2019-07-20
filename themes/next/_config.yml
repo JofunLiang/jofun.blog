@@ -127,10 +127,10 @@ scheme: Gemini
 # Value before `||` delimeter is the target permalink.
 # Value after `||` delimeter is the name of FontAwesome icon. If icon (with or without delimeter) is not specified, globe icon will be loaded.
 social:
-  GitHub: https://github.com/jasonyh || github
-  E-Mail: mailto:ce2010@foxmail.com || envelope
-  微博: https://weibo.com/xiaolanvblog || weibo
-  QQ: http://sighttp.qq.com/authd?IDKEY=f67c919702f76aff21f09284308fe39875d3f6b466780165 || qq
+  GitHub: https://github.com/JofunLiang || github
+  E-Mail: mailto:lianghaozhuo@yeah.net || envelope
+  #微博: https://weibo.com/xiaolanvblog || weibo
+  #QQ: http://sighttp.qq.com/authd?IDKEY=f67c919702f76aff21f09284308fe39875d3f6b466780165 || qq
   # Google: https://plus.google.com/yourname || google
   #Twitter: https://twitter.com/yourname || twitter
   #FB Page: https://www.facebook.com/yourname || facebook
@@ -156,7 +156,7 @@ links_layout: inline
 # Sidebar Avatar
 # in theme directory(source/images): /images/avatar.gif
 # in site  directory(source/uploads): /uploads/avatar.gif
-avatar: /uploads/avatar.jpg # gravatar style
+avatar: https://avatars3.githubusercontent.com/u/26024762?s=460&v=4 # gravatar style
 
 
 # Table Of Contents in the Sidebar
@@ -376,12 +376,11 @@ changyan:
   appid:
   appkey:
 
-
 # Valine.
 # You can get your appid and appkey from https://leancloud.cn
 # more info please open https://valine.js.org
 valine:
-  enable: true
+  enable: false
   # your leancloud application appid
   appid: whvYznsmmsOpILoqUTDPBwmf-gzGzoHsz
   # your leancloud application appkey
@@ -406,7 +405,7 @@ valine:
 # Introduction: https://imsun.net/posts/gitment-introduction/
 # You can get your Github ID from https://api.githubx.com/users/<Github username>
 gitment:
-  enable: false
+  enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
   count: true # Show comments count in post meta area
   lazy: true # Comments lazy loading with a button
@@ -414,15 +413,16 @@ gitment:
   # Force language, or auto switch by theme
   language: zh-Hans
   # MUST HAVE, Your Github ID
-  github_user: JasonYH
+  github_user: JofunLiang
   # MUST HAVE, The repo you use to store Gitment comments
-  github_repo: https://github.com/JasonYH/jasonyh.github.io.git
+  github_repo: https://github.com/JofunLiang/JofunLiang.github.io.git
   # MUST HAVE, Github client id for the Gitment
-  client_id: 94a39b0de202e331b246
+  client_id: a68b6e804eda17d1a6c7
   # EITHER this or proxy_gateway, Github access secret token for the Gitment
-  client_secret: c5970c26d2ad58d8d37a77aab575cd481c15d7f2
+  client_secret: 79c411546dc59b6f621caf9160e2f4f3042e54ec
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
+  
 
 # Baidu Share
 # Available value: 
