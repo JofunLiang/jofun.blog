@@ -67,11 +67,11 @@ document.body.appendChild(myElement);
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>注册新的元素</title>
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8">
+    <title>注册新的元素</title>
+  </head>
+  <body>
     <script>
       
       customElements.define('my-element', class extends HTMLElement {
@@ -90,7 +90,7 @@ document.body.appendChild(myElement);
       document.body.appendChild(myElement); // 此时，调用connectedCallback回调函数
       
     </script>
-	</body>
+  </body>
 </html>
 ```
 
@@ -194,11 +194,11 @@ class MyElement extends HTMLElement {
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>注册新的元素</title>
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8">
+    <title>注册新的元素</title>
+  </head>
+  <body>
     <button>注册元素</button>
     
     <script>
@@ -219,7 +219,7 @@ class MyElement extends HTMLElement {
       }
       
     </script>
-	</body>
+  </body>
 </html>
 ```
 
@@ -261,11 +261,11 @@ input.disabled = true;
 ```html
 <!DOCTYPE html>
 <html>
-	<head>
-		<meta charset="utf-8">
-		<title>注册新的元素</title>
-	</head>
-	<body>
+  <head>
+    <meta charset="utf-8">
+    <title>注册新的元素</title>
+  </head>
+  <body>
     <my-element>自定义元素</my-element>
     <p>
       <button class="btn__set">设置disabled</button>
@@ -300,7 +300,7 @@ input.disabled = true;
       }
       
     </script>
-	</body>
+  </body>
 </html>
 ```
 通过这种方式，你可以向属性传递任何类型的值。
