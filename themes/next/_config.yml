@@ -407,20 +407,19 @@ valine:
 gitment:
   enable: true
   mint: true # RECOMMEND, A mint on Gitment, to support count, language and proxy_gateway
-  error: false
   count: true # Show comments count in post meta area
   lazy: true # Comments lazy loading with a button
   cleanly: true # Hide 'Powered by ...' on footer, and more
   # Force language, or auto switch by theme
   language: zh-Hans
   # MUST HAVE, Your Github ID
-  github_user: JofunLiang
+  github_user: jofunLiang
   # MUST HAVE, The repo you use to store Gitment comments
-  github_repo: https://github.com/JofunLiang/JofunLiang.github.io.git
+  github_repo: jofun.blog
   # MUST HAVE, Github client id for the Gitment
-  client_id: a68b6e804eda17d1a6c7
+  client_id: 14b9060487d4312f5069
   # EITHER this or proxy_gateway, Github access secret token for the Gitment
-  client_secret: 79c411546dc59b6f621caf9160e2f4f3042e54ec
+  client_secret: b316acf47e8080d6fd849f0f439199f822b41770
   proxy_gateway: # Address of api proxy, See: https://github.com/aimingoo/intersect
   redirect_protocol: # Protocol of redirect_uri with force_redirect_protocol when mint enabled
   
