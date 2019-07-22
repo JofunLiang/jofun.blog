@@ -2,7 +2,7 @@
 title: 比较var、let、const的区别
 date: 2018-10-28
 toc: false
-comment: true
+comments: false
 tags:
     - 变量提升
     - 块作用域

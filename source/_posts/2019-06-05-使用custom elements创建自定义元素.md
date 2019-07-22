@@ -2,7 +2,7 @@
 title: 使用custom elements创建自定义元素
 date: 2019-06-05
 toc: false
-comment: true
+comments: false
 tags:
     - 自定义元素
     - Web组件

@@ -2,7 +2,7 @@
 title: 设置placeholder样式及隐藏IE浏览器input元素的删除和查看密码图标
 date: 2018-04-23
 toc: false
-comment: true
+comments: false
 tags:
     - 设置placeholder样式
     - 设置input样式

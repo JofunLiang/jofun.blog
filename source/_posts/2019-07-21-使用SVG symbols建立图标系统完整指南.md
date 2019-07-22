@@ -2,7 +2,7 @@
 title: 使用SVG symbols建立图标系统完整指南
 date: 2019-07-21
 toc: false
-comment: true
+comments: false
 tags:
     - web图标
     - symbols

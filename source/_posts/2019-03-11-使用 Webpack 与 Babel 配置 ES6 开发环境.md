@@ -2,7 +2,7 @@
 title: 使用 Webpack 与 Babel 配置 ES6 开发环境
 date: 2019-03-11
 toc: false
-comment: true
+comments: false
 tags:
     - Webpack
     - Babel

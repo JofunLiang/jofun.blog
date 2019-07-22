@@ -2,7 +2,7 @@
 title: 前端JavaScript开发日常技巧
 date: 2018-11-25
 toc: false
-comment: true
+comments: false
 tags:
     - JavaScript技巧
 categories:

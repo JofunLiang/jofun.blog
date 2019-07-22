@@ -2,7 +2,7 @@
 title: Vue组件样式scoped的原理与样式穿透的用法
 date: 2018-09-13
 toc: false
-comment: true
+comments: false
 tags:
     - vue组件样式
     - scoped样式

@@ -2,7 +2,7 @@
 title: javaScript识别网址并转为链接
 date: 2018-04-08
 toc: false
-comment: true
+comments: false
 tags:
     - JavaScript
 categories:
