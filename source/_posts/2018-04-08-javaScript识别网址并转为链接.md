@@ -65,12 +65,12 @@ url => <a href='url' target='_blank'>url</a>
 根据上面的分析过程，使用代码来描述如下：
 ```js
 var urlToLink = function(str){
-    var re = /^(f|ht){1}(tp|tps):\\/\\/([\\w-]+\\.)+[\\w-]+(\\/[\\w- ./?%&=]*)?/g; 
+  var re = /^(f|ht){1}(tp|tps):\\/\\/([\\w-]+\\.)+[\\w-]+(\\/[\\w- ./?%&=]*)?/g; 
 
-    str = str.replace(re, function(website){ 
-        return "<a href='" + website +"' target='_blank'>" + website + "</a>"; 
-    }); 
-    return str;
+  str = str.replace(re, function(website){ 
+    return "<a href='" + website +"' target='_blank'>" + website + "</a>"; 
+  }); 
+  return str;
 };
 ```
 到这里，javaScript识别网址文本并转为链接文本的函数接完成了。

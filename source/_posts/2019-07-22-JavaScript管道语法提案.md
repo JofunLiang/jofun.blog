@@ -2,7 +2,7 @@
 title: JavaScript管道语法提案
 date: 2019-07-22
 toc: false
-comment: true
+comments: false
 tags:
     - 管道语法
     - 管道函数
