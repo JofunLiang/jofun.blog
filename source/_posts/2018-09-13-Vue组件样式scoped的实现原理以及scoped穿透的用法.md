@@ -22,12 +22,12 @@ Vue中的scoped属性的效果主要是通过PostCss实现的。
 转译前的代码：
 ```html
 <style scoped>
-    .example{
-        color:red;
-    }
+  .example {
+    color:red;
+  }
 </style>
 <template>
-    <div class="example">scoped属性例子</div>
+  <div class="example">scoped属性例子</div>
 </template>
 ```
 
@@ -37,7 +37,7 @@ Vue中的scoped属性的效果主要是通过PostCss实现的。
   color: red;
 }
 <template>
-    <div class="example" data-v-5558831a>scoped属性例子</div>
+  <div class="example" data-v-5558831a>scoped属性例子</div>
 </template>
 ```
 
@@ -58,7 +58,7 @@ stylus预处理语言的样式穿透， 使用：>>>
 例如：
 ```css
 .wrapper >>> .el-button {
-	border-radius:0;
+  border-radius:0;
 }
 ```
 
@@ -67,7 +67,7 @@ sass和less预处理语言的样式穿透，使用：/deep/
 例如：
 ```css
 .wrapper /deep/ .el-button {
-	border-radius:0;
+  border-radius:0;
 }
 ```
 

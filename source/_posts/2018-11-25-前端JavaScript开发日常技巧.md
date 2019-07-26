@@ -19,12 +19,12 @@ JavaScript并没有一开始就告诉你什么值被认为是真（true）或假
 
 ```javascript
 
-const a = '';           // false
-const b = NaN;          // false
-const c = 0;            // false
-const d = null;         // false
-const e = undefined;    // false
-const f = false;        // false
+const a = Boolean('');           // false
+const b = Boolean(NaN);          // false
+const c = Boolean(0);            // false
+const d = Boolean(null);         // false
+const e = Boolean(undefined);    // false
+const f = Boolean(false);        // false
 
 ```
 
@@ -33,14 +33,14 @@ const f = false;        // false
 ```javascript
 
 (function test () {
-	var array = [false, '', NaN, 0, null, undefined];
-	array.forEach(value => {
-		if (value) {
-			console.log(true);
-		} else {
-			console.log(false);
-		}
-	})
+  var array = [false, '', NaN, 0, null, undefined];
+  array.forEach(value => {
+    if (value) {
+      console.log(true);
+    } else {
+      console.log(false);
+    }
+  })
 })();
 
 ```

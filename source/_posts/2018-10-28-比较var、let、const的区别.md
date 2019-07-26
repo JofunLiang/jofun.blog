@@ -120,22 +120,22 @@ for (let i = 1; i <= 5; i++) {
 
 ```js
 var Person;
-			
+      
 {
-	let privateScope = {}; // 私有变量
-	
-	Person = function () {
-		this.publicScope = 'foo';
-		privateScope.property = 'bar';
-	}
-	
-	Person.prototype.showPublic = function () {
-		console.log(this.publicScope);
-	}
-	
-	Person.prototype.showPrivate= function () {
-		console.log(privateScope.property);
-	}
+  let privateScope = {}; // 私有变量
+  
+  Person = function () {
+    this.publicScope = 'foo';
+    privateScope.property = 'bar';
+  }
+  
+  Person.prototype.showPublic = function () {
+    console.log(this.publicScope);
+  }
+  
+  Person.prototype.showPrivate= function () {
+    console.log(privateScope.property);
+  }
 }
 
 var newPerson = new Person();
@@ -189,8 +189,8 @@ const a = 20;
 const声明创建一个值的只读引用。但这并不意味着它所持有的值是不可变的，只是变量标识符不能重新分配。例如，在引用内容是对象的情况下，这意味着可以改变对象的内容（例如，其参数）。
 ```javascript
 const obj = {
-	a: 'foo',
-	b: 'bar'
+  a: 'foo',
+  b: 'bar'
 }
 
 obj.a = 'a';
