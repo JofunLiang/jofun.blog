@@ -11,7 +11,7 @@ tags:
     - svg symbols
     - web图标
 categories:
-    - SVG
+    - Vue
 ---
 
 随着高清屏幕的普及，相比使用png等位图而言，使用SVG等矢量图形是一种全新的设计方式。更重要的是相比位图而言，SVG有着无可比拟的优势。其中，使用SVG中的[Symbol元素](https://developer.mozilla.org/zh-CN/docs/Web/SVG/Element/symbol)制作Icon图标变得越来越流行，这种技术被称为SVG Sprite。这里所说的Sprite技术，类似于CSS中的Sprite技术。图标图形整合在一起，实际呈现的时候准确显示特定图标。
