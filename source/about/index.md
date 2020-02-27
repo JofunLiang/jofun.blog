@@ -7,7 +7,11 @@ tags:
     - 关于
 ---
 {% cq %}
+姓名：梁豪卓
 性别：男
-年龄：28
-目前就职于广州，从事Web前端开发
+出生日期：1990年05月06日
+所在城市：广州
+目前职业：前端开发工程师
+联系邮箱：lianghaozhuo@yeah.net
+GitHub主页：https://github.com/JofunLiang
 {% endcq %}
